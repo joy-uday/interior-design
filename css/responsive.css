@@ -1,0 +1,217 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  /* CSS */
+}
+
+/* 
+##Device = Laptops, Desktops
+##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+}
+
+/* 
+##Device = Tablets, Ipads (portrait)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+}
+
+/* 
+##Device = Tablets, Ipads (landscape)
+##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+}
+
+/* 
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS */
+}
+
+/* 
+##Device = Most of the Smartphones Mobiles (Portrait)
+##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+  /* header */
+  #navbarSupportedContent {
+      background: rgba(98, 0, 255, 0.82);
+  }
+  .navbar-nav {
+      text-align: right !important;
+  }
+  .nav-link {
+      letter-spacing: 1px;
+      font-size: 18px;
+  }
+  .header-right {
+      flex-direction: row-reverse;
+  }
+  .header-right a {
+      padding: 12px 10px;
+      color: yellow !important;
+      font-weight: 800;
+      font-size: 18px;
+  }
+  .header-right a::before {
+      bottom: 11%;
+      width: 82px;
+      right: 12px;
+      background: yellow !important;
+  }
+  /* banner */
+  .banner {
+      height: auto;
+      background-position: center bottom !important;
+      text-align: center;
+  }
+  .banner-text h2 {
+      font-size: 30px;
+      padding: 60px 0 0;
+  }
+  .banner-text button {
+      padding: 15px 35px;
+  }
+  /* service section */
+  .service-1 {
+      padding: 50px 70px 0px 80px;
+  }
+  .cat-1 {}
+  .service-1::before {}
+  .service-1 h2::before {
+      left: 35px;
+      top: 70px;
+  }
+  .service-1 p {
+      padding: 6% 0 0%;
+  }
+  .service-1 h1 {
+      margin: 0 auto;
+  }
+  /* our work */
+  .our-work-section {
+      padding: 40px 0;
+  }
+  .our-work-section::before {
+      height: 250px;
+  }
+  .works-1-text {
+      height: auto;
+      padding: 30px 30px;
+      text-align: center;
+  }
+  .works-1-text h2 {
+      font-size: 28px;
+      font-weight: 700;
+  }
+  .w-2 .row {
+      flex-direction: column-reverse;
+  }
+  .w-4 .row {
+      flex-direction: column-reverse;
+  }
+  /* portfolio */
+  .portfolio {
+      padding: 35px 0 ;
+  }
+  .portfolio-details {
+      height: auto;
+      padding: 10px 30px;
+      text-align: center;
+  }
+  .portfolio-details h1 {
+      width: 100%;
+      font-size: 27px;
+      font-weight: 700;
+  }
+  .portfolio-details p {
+      width: 100%;
+      font-size: 16px;
+  }
+  .portfolio-details ul {
+      text-align: left;
+      padding: 8% 0;
+  }
+  .portfolio-details button {
+      margin: 0;
+  }
+  /* testimonial */
+  .testimonial {
+      height: auto;
+      padding: 25px 5px;
+  }
+  .slide-1 {}
+  .slide-1 p {
+      width: 100%;
+      font-size: 16px;
+      line-height: 22px;
+      margin: 15px auto;
+  }
+  .quote img {
+      width: 29px !important;
+  }
+  .author img {}
+  .author h3 {}
+  .author h4 {}
+  
+  /* instagram */
+  .instagram{
+    padding: 50px 0 0;
+  }
+  .instagram .col-md-4 img{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  /* footer */
+  .footer{
+    padding: 30px 0;
+    text-align: center;
+  }
+  .mail-section .col-md-6:last-child{
+    text-align: center;
+  }
+  .mail-section .col-md-6:first-child h3{
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .divider{
+    margin: 15px 0px 35px;
+  }
+  .address-1{
+    margin-bottom: 10%;
+  }
+  .address-1 ul{
+    padding: 0px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .subscribe form input:first-child{
+    width: 100%;
+  }
+  .subscribe form input:last-child{
+    right: 5px;
+  }
+  .subscribe h2{
+
+  }
+  .subscribe p{
+    margin: 0 auto;
+  }
+}
